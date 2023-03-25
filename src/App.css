@@ -1,7 +1,25 @@
 .App {
   text-align: center;
 }
+body{
+  
+background: radial-gradient(circle, rgb(2, 74, 129) 61%, rgba(249,249,249,1) 98%);
+  color: white;
+  
+}
+button{
+  
+background: radial-gradient(circle, rgba(0,48,255,1) 2%, rgb(0, 0, 0) 100%);
+  padding: 0.5% 0.5% 0.5% 0.5%;
+  color: white;
+  font-size: large;
 
+}
+button:hover{
+  background: none;
+  border: 2px solid white;
+  color: white;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
